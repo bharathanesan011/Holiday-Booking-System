@@ -1,0 +1,71 @@
+@charset "ISO-8859-1";
+
+.banner{
+	 background: url("../Image/coffee.jpg") no-repeat center center fixed !important;
+	 background-size: cover !important;
+	 color:white;
+}
+.banner-login{
+	background: url("../Image/wine.jpg") no-repeat center center fixed !important;
+	background-size: cover !important;
+	color:white;
+}
+.banner-admin{
+	 background: url("../Image/coffee1.jpg") no-repeat center center fixed !important;
+	 background-size: cover !important;
+	 color:white;
+}
+.overlay{
+	background: rgba(0, 0, 0, 0.6);	
+	margin-top: 10% !important;
+}
+.center_div{
+    margin: 0 auto;
+    width:80% /* value of your choice which suits your alignment */
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0000009c;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+li a:hover {
+    color: #fff;
+}
+.active {
+  background-color: #04AA6D;
+}
+.Error{
+	color:red !important;
+}
+.button{
+	color: white;
+    text-decoration: none;
+    padding: 12px;
+    background-color: #04aa6d;
+}
+.button:hover{
+	color: white;
+}
+.search{
+	display:initial !important;
+	width:40% !important;
+}
